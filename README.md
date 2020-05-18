@@ -3,6 +3,15 @@
 [![Coverage Status](https://coveralls.io/repos/JedWatson/react-select/badge.svg?branch=master&service=github)](https://coveralls.io/github/JedWatson/react-select?branch=master)
 [![Supported by Thinkmill](https://thinkmill.github.io/badge/heart.svg)](http://thinkmill.com.au/?utm_source=github&utm_medium=badge&utm_campaign=react-select)
 
+This fork mainly sets spellcheck=true on the input boxes.
+
+The normal way to do this would be to provide a custom `component`.   However,
+doing so with react-select/creatable breaks the input, so you can no longer type 
+in it without it losing focus.   
+
+react-select is poorly maintained and quite behind, so eventually we might switch
+to material-ui's instead.
+
 # React-Select
 
 The Select control for [React](https://reactjs.com). Initially built for use in [KeystoneJS](http://www.keystonejs.com).
